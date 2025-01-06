@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+  padding: 5px;
+  line-height: 1.6;
+  color: #f7f2f2;
+  font-size: medium;
+  background-image: url("img4.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.abc {
+  color: rgb(247, 243, 243);
+}
+
+.about {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #3aefdb 100%);
+  padding: 20px;
+  width: 40px;
+  font-size: medium;
+  font-family: 
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+.about:hover{
+  box-shadow: 7px 7px 10px rgba(161, 149, 149, 0.815);
+  transform: translateY(-10px);
+}
